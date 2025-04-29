@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import AppRoutes from "AppRoutes";
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <AppRoutes />
     </div>
-  )
-}
+  );
+};
