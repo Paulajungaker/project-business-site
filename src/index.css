@@ -3,7 +3,7 @@ body {
   font-family: Nunito;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: var(--light); */
+  background-color: var(--light);
   color: var(--brown);
 }
 
@@ -29,6 +29,7 @@ p {
 
 h1 {
   font-size: 32px;
+  color: var(--light);
 }
 
 h2 {
@@ -42,6 +43,15 @@ h3 {
 
 p {
   font-size: 12px;
+}
+
+button {
+  background-color: var(--lavendel);
+  color: var(--light);
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* TABLET */
