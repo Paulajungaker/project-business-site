@@ -1,0 +1,63 @@
+.about-section {
+  padding: 16px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.moon-icon {
+  width: 90px;
+  height: 90px;
+}
+
+.about-text-container {
+  width: 70%;
+}
+
+.about-title {
+  margin: 0;
+}
+
+.about-cursive {
+  margin: 0;
+  font-style: italic;
+}
+
+.about-text {
+  margin: 12px 0;
+}
+
+@media (min-width: 745px) {
+  .about-section {
+    padding: 32px 75px;
+  }
+
+  .moon-icon {
+    width: 150px;
+    height: 150px;
+    margin-right: 34px;
+  }
+
+  .about-text {
+    margin: 25px 0 12px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-section {
+    padding: 78px 175px;
+  }
+
+  .about-text-container {
+    width: 80%;
+  }
+
+  .moon-icon {
+    width: 260px;
+    height: 260px;
+    margin-right: 58px;
+  }
+
+  .about-text {
+    margin: 35px 0 22px 0;
+  }
+}
