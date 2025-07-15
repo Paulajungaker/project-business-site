@@ -3,7 +3,7 @@ body {
   font-family: Nunito;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--light);
+  /* background-color: var(--light); */
   color: var(--brown);
 }
 
@@ -13,10 +13,68 @@ h3 {
   font-family: "Playfair Display";
 }
 
+p {
+  font-family: Nunito;
+}
+
 :root {
   --lavendel: #c8b8d0;
   --green: #c9d5ca;
   --light: #f5ebe4;
   --sand: #e6d5bd;
   --brown: #7a5c4d;
+}
+
+/* PHONE */
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* TABLET */
+
+@media (min-width: 745px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* DESKKTOP */
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 24px;
+  }
 }
