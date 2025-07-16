@@ -16,6 +16,7 @@ h4 {
 
 :root {
   --lavendel: #c8b8d0;
+  --lavendel-hover: #a88bb5;
   --green: #c9d5ca;
   --light: #f5ebe4;
   --sand: #e6d5bd;
@@ -55,6 +56,10 @@ button {
   border-radius: 20px;
   border: none;
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: var(--lavendel-hover);
 }
 
 /* TABLET */
