@@ -3,6 +3,7 @@ import React from "react";
 import AppRoutes from "AppRoutes";
 import AboutSection from "components/AboutSection";
 import CoursesSection from "components/CoursesSection";
+import IncenseSection from "components/IncenseSection";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <AppRoutes />
       <AboutSection />
       <CoursesSection />
+      <IncenseSection />
     </div>
   );
 };
