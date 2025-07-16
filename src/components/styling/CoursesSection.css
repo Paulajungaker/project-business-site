@@ -20,3 +20,23 @@
 .courses-grid::-webkit-scrollbar {
   display: none;
 }
+
+@media (min-width: 510px) {
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(154px, max-content));
+    justify-content: center;
+  }
+}
+
+@media (min-width: 745px) {
+  .courses-section {
+    padding: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .courses-section {
+    padding: 78px;
+  }
+}

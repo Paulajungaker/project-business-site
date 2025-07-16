@@ -22,21 +22,6 @@ const CoursesSection = () => {
           title="Root & Rise"
           description="A 7-day journey to reconnect with your body and inner essence."
         />
-        <CourseCard
-          image="./images/image-course-4.jpg"
-          title="Moonlit Reflections"
-          description="Evening practices to attune to the lunar cycle and your intuition."
-        />
-        <CourseCard
-          image="./images/image-course-5.jpg"
-          title="Earth & Body Connection"
-          description="Grounding rituals that root you in your body and the natural world."
-        />
-        <CourseCard
-          image="./images/image-course-6.jpg"
-          title="Sacred Sisterhood"
-          description="A space to nurture connection, trust, and shared spiritual growth."
-        />
       </div>
     </section>
   );
