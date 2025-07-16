@@ -1,0 +1,22 @@
+.courses-section {
+  background-color: var(--sand);
+  padding: 16px 16px;
+}
+
+.courses-title {
+  text-align: center;
+  margin: 0 0 6px 0;
+}
+
+.courses-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 7px;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.courses-grid::-webkit-scrollbar {
+  display: none;
+}
