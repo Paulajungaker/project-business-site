@@ -6,7 +6,7 @@ const AboutSection = () => {
     <div className="about-section">
       <img src="./icons/icon-moon.png" className="moon-icon" alt="moon icon" />
       <div className="about-text-container">
-        <h2 className="about-title">Femin Essence</h2>
+        <h2 className="about-title">Femine Essence</h2>
         <p className="about-cursive">
           is a space where softness becomes strenght
         </p>

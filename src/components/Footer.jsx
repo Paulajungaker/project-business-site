@@ -4,7 +4,7 @@ import "./styling/Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <h2 className="footer-logo">Femin Essence</h2>
+      <h2 className="footer-logo">Femine Essence</h2>
       <div className="media-container">
         <img
           src="./icons/icon-instagram.png"
