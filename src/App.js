@@ -6,6 +6,7 @@ import CoursesSection from "components/CoursesSection";
 import IncenseSection from "components/IncenseSection";
 import QuoteSection from "components/QuoteSection";
 import SignUpSection from "components/SignUpSection";
+import Footer from "components/Footer";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <IncenseSection />
       <QuoteSection />
       <SignUpSection />
+      <Footer />
     </div>
   );
 };
