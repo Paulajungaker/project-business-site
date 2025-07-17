@@ -12,4 +12,5 @@ Femin Essence is a responsive website built with React and CSS. The project was 
 
 ### See live
 
-https://femin-essence.netlify.app/
+https://femine-essence.netlify.app/
+
