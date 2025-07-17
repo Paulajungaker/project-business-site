@@ -32,11 +32,13 @@ const SignUpSection = () => {
         />
 
         <label className="signup-checkbox" htmlFor="updates">
-          <input type="checkbox" />I want to receive updates about rituals
+          <input id="updates" type="checkbox" />I want to receive updates about
+          rituals
         </label>
 
         <label className="signup-checkbox" htmlFor="terms">
-          <input type="checkbox" />I accept the terms & privacy policy
+          <input id="terms" type="checkbox" />I accept the terms & privacy
+          policy
         </label>
 
         <p className="signup-question">
@@ -45,13 +47,21 @@ const SignUpSection = () => {
 
         <div className="signup-options">
           <label htmlFor="pref-email">
-            <input type="radio" name="preference" value="email" /> Email
+            <input
+              id="pref-email"
+              type="radio"
+              name="preference"
+              value="email"
+            />{" "}
+            Email
           </label>
           <label htmlFor="pref-sms">
-            <input type="radio" name="preference" value="sms" /> SMS
+            <input id="pref-sms" type="radio" name="preference" value="sms" />{" "}
+            SMS
           </label>
           <label htmlFor="pref-both">
-            <input type="radio" name="preference" value="both" /> Both
+            <input id="pref-both" type="radio" name="preference" value="both" />{" "}
+            Both
           </label>
         </div>
 
