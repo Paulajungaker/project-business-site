@@ -37,6 +37,10 @@
     padding: 24px;
   }
 
+  .footer-links {
+    gap: 20px;
+  }
+
   .media-container {
     top: 34px;
   }
@@ -54,6 +58,7 @@
 
   .footer-links {
     font-size: 24px;
+    gap: 32px;
   }
 
   .media-container {
